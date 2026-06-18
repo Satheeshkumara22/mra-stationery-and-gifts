@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+
+    <title>Checkout</title>
+
+    <link rel="stylesheet"
+    href="style.css">
+
+</head>
+
+<body>
+
+    <div class="checkout-container">
+
+        <h1>CHECKOUT</h1>
+
+        <form id="checkoutForm">
+
+            <h2>Personal Details</h2>
+
+            <input
+            type="text"
+            id="customerName"
+            placeholder="Full Name"
+            required>
+
+            <input
+            type="tel"
+            id="customerPhone"
+            placeholder="Mobile Number"
+            required>
+
+            <input
+            type="email"
+            id="customerEmail"
+            placeholder="Email Address"
+            required>
+
+            <textarea
+            id="customerAddress"
+            placeholder="Full Delivery Address"
+            required></textarea>
+
+            <h2>Order Summary</h2>
+
+            <div class="order-summary">
+
+                <div class="summary-row">
+
+                    <span>Product Total</span>
+
+                    <span>
+                        ₹<span id="checkoutProductTotal">0</span>
+                    </span>
+
+                </div>
+
+                <div class="summary-row">
+
+                    <span>Packing & Courier</span>
+
+                    <span>₹80</span>
+
+                </div>
+
+                <hr>
+
+                <div class="summary-grand">
+
+                    <span>Grand Total</span>
+
+                    <span>
+                        ₹<span id="checkoutGrandTotal">0</span>
+                    </span>
+
+                </div>
+
+            </div>
+
+           <h2>Payment Method</h2>
+
+<div class="payment-box">
+
+    <label>
+    <input type="radio" name="payment" value="cod" checked>
+    <span>Cash On Delivery</span>
+</label>
+
+<label>
+    <input type="radio" name="payment" value="online">
+    <span>Online Payment</span>
+</label>
+
+</div>
+            <button
+            type="submit"
+            class="pay-btn">
+
+                PAY / PLACE ORDER
+
+            </button>
+
+        </form>
+
+    </div>
+
+    <script src="checkout.js"></script>
+
+</body>
+</html>

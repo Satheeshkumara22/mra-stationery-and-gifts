@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Author Panel</title>
+
+<link rel="stylesheet" href="author.css"[]
+
+</head>
+<body>
+
+<header class="topbar">
+
+    <h1>M.R.A AUTHOR PANEL</h1>
+
+   <div class="header-buttons">
+
+    <a href="index.html" class="header-buttons">
+<button id="homeBtn">
+        Home
+    </button>
+
+    </a>
+
+    <button id="logoutBtn">
+        Logout
+    </button>
+
+</div>
+
+</header>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <a href="author-dashboard.html">Dashboard</a>
+<a href="author-products.html">
+    Products
+</a>     
+
+    </aside>
+
+    <main class="content">
+
+        <h2>Orders Received</h2>
+
+        <div id="ordersContainer">
+
+            <div class="order-card">
+
+                <h3>Order #001</h3>
+
+                <p>Customer : Kumar</p>
+
+                <p>Total : ₹350</p>
+
+                <p>Payment : Online Paid</p>
+
+                <div class="order-buttons">
+
+    <button onclick="openOrder()">
+        View Details
+    </button>
+
+    <button onclick="removeOrder(this)"
+    class="remove-btn">
+        Complete Order
+    </button>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script type="module" src="author.js"></script>
+<script>
+
+function openOrder(){
+
+    window.location.href =
+    "order-details.html";
+
+}
+
+function removeOrder(button){
+
+    if(confirm(
+    "Mark this order as completed?"
+    )){
+
+        const orderCard =
+        button.closest(".order-card");
+
+        orderCard.remove();
+
+        alert("Order Completed");
+
+    }
+
+}
+
+</script>
+</body>
+</html>

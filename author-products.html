@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Manage Products</title>
+
+    <link rel="stylesheet" href="author.css">
+</head>
+
+<body>
+
+    <h1 class="page-title">
+        Manage Products
+    </h1>
+
+    <div class="top-buttons">
+
+        <button id="addProductBtn">
+            + Add Product
+        </button>
+
+         <button id="goToProductsBtn">
+            Go To Product Page
+        </button>
+
+        
+    </div> 
+    
+
+    <div id="productForm" style="display:none;">
+
+        <h3>Add New Product</h3>
+
+        <input
+            type="text"
+            id="productName"
+            placeholder="Product Name">
+
+        <input
+            type="number"
+            id="productPrice"
+            placeholder="Price">
+
+        <input
+            type="file"
+            id="productImage"
+            accept="image/*">
+
+        <button id="saveProductBtn">
+            Save Product
+        </button>
+
+    </div>
+
+    <div id="productsContainer"></div>
+
+    <script src="author-products.js"></script>
+
+</body>
+
+</html>

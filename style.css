@@ -1852,3 +1852,20 @@ img{
     border-radius:8px;
     cursor:pointer;
 }
+.hero{
+    min-height:500px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    background-image:url("bg1.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    color:white;
+}

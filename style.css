@@ -2002,28 +2002,28 @@ img{
 
 #placeOrderBtn{
 
-    width:92%;
-
-    height:60px;
+    width:95%;
+    height:55px;
 
     margin:20px auto;
 
     display:block;
 
     border:none;
-
     border-radius:12px;
 
-    background:#ffc107;
+    background:#FFC107;
+
+    color:#000;
 
     font-size:18px;
-
     font-weight:bold;
+
+    white-space:nowrap;
 
     cursor:pointer;
 
 }
-
 #placeOrderBtn:hover{
 
     background:#ffb300;

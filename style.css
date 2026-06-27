@@ -2029,3 +2029,19 @@ img{
     background:#ffb300;
 
 }
+
+/* ===== Force Mobile Checkout Button ===== */
+@media (max-width: 480px) {
+
+    #placeOrderBtn{
+        width:95% !important;
+        height:55px !important;
+        font-size:18px !important;
+        white-space:nowrap !important;
+        line-height:55px !important;
+        padding:0 !important;
+        display:block !important;
+        margin:20px auto !important;
+    }
+
+}

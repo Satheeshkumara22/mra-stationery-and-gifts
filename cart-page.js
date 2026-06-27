@@ -43,7 +43,10 @@ function displayCart() {
 
     cart.forEach(item => {
 
-        total += item.price * item.quantity;
+        const qty = item.quantity || 1;
+const price = Number(item.price) || 0;
+
+total += price * qty;
 
         cartItems.innerHTML += `
 

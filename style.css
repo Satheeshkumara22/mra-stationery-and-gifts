@@ -1782,9 +1782,37 @@ img{
     border-radius:12px;
 
     }
+.product-card img{
 
+    width:90px;
 
+    height:90px;
 
+    object-fit:cover;
+
+    display:block;
+
+    margin:0 auto 10px;
+
+}
+    .product-card h3{
+
+    font-size:18px;
+
+    margin:8px 0 4px;
+
+    }
+    .product-card p{
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    color:#2f62dc;
+
+    }
+
+}
 
 @media screen and (max-width:768px){
 

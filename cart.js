@@ -9,8 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
             let products = JSON.parse(localStorage.getItem("products")) || [];
             let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-            const product = products[index];
+const product = products[index];
 
+if (!product) {
+    alert("Product not found.");
+    return;
+}
             // Check if product already exists
             const existing = cart.find(item => item.name === product.name);
 

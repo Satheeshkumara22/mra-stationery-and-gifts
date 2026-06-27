@@ -1095,28 +1095,25 @@ font-size:18px;
 
     margin-top:20px;
 }
-
 .checkout-btn{
 
     width:100%;
+    height:60px;
 
-    height:70px;
+    background:#facc15;
 
-    margin-top:30px;
-
-    background:#facc15 !important;
-
-    color:black !important;
+    color:#000;
 
     border:none;
 
     border-radius:12px;
 
-    font-size:28px !important;
+    font-size:20px;
 
     font-weight:bold;
 
     cursor:pointer;
+
 }
 
 .checkout-btn:hover{
@@ -2031,17 +2028,32 @@ img{
 }
 
 /* ===== Force Mobile Checkout Button ===== */
-@media (max-width: 480px) {
+@media (max-width:480px){
 
     #placeOrderBtn{
-        width:95% !important;
+
+        width:100% !important;
+        max-width:340px !important;
+
         height:55px !important;
-        font-size:18px !important;
-        white-space:nowrap !important;
-        line-height:55px !important;
-        padding:0 !important;
-        display:block !important;
+
         margin:20px auto !important;
+
+        display:flex !important;
+        justify-content:center !important;
+        align-items:center !important;
+
+        font-size:16px !important;
+        font-weight:bold !important;
+
+        white-space:nowrap !important;
+
+        padding:0 10px !important;
+
+        line-height:normal !important;
+
+        box-sizing:border-box !important;
+
     }
 
 }

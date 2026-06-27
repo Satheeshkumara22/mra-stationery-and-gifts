@@ -1975,15 +1975,28 @@ img{
 
     .total-row{
 
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-        white-space:nowrap;
+    margin-top:20px;
 
-        font-size:20px;
+    font-size:20px;
+    font-weight:bold;
 
-    }
+    color:#00994d;
+
+    white-space:nowrap;
+
+}
+
+.total-row h2,
+.total-row span{
+
+    margin:0;
+    white-space:nowrap;
+
+}
 
 }
 

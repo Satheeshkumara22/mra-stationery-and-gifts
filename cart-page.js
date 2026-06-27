@@ -70,7 +70,7 @@ total += price * qty;
                         -
                     </button>
 
-                    <span>${item.quantity}</span>
+                    <span>${item.quantity || 1}</span>
 
                     <button onclick="increaseQty('${item.name}')">
                         +

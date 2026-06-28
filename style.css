@@ -1,4 +1,4 @@
-*{
+8*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -1848,11 +1848,12 @@ img{
 
     height:36px;
 
-    font-size:14px;
+    font-size:10px;
 
     border-radius:8px;
 
     padding:0;
+    letter-spacing:0;
 
 }
 

@@ -1667,14 +1667,19 @@ cursor:pointer;
         grid-template-columns:1fr;
     }
     footer{
-    position:fixed;
-    bottom:0;
-    left:0;
+
+    position:relative;
+
     width:100%;
+
     background:#2563eb;
+
     color:white;
+
     text-align:center;
-    z-index:1000;
+
+    margin-top:30px;
+
 }
 
 }

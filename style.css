@@ -1924,13 +1924,15 @@ img{
 
     .products-container,
     .products-grid,
-    #productsContainer{
+    #product-container{
 
-        grid-template-columns:repeat(3,1fr);
+    display:grid;
 
-        gap:10px;
+    grid-template-columns:repeat(2,minmax(160px,1fr));
 
-        padding:10px;
+    gap:8px;
+
+    padding:8px;
 
     }
 
@@ -1962,7 +1964,7 @@ height:110px;
 
     }
 
-    ..add-btn{
+    .add-btn{
 
     width:100%;
 

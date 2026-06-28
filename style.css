@@ -1935,17 +1935,17 @@ img{
 
     display:grid;
 
-    grid-template-columns:repeat(2,minmax(160px,1fr));
+    grid-template-columns:repeat(2,1fr);
 
-    gap:8px;
+    gap:6px;
 
-    padding:8px;
+    padding:4px;
 
     }
 
     .product-card{
 
-        width:100%;
+        width:auto;
 
         padding:10px;
 min-height:250px;

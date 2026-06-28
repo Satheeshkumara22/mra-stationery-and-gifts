@@ -1761,7 +1761,13 @@ img{
     }
 
     .product-card{
-        width:200px;
+
+    width:100%;
+
+    padding:12px 8px;
+
+    min-height:240px;
+
     }
 
 }
